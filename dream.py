@@ -301,7 +301,7 @@ class Ui_MainWindow(object):
             if ok:
                 self.l1.setText(str(text))
         if txt=='Save Team':
-            ## Iterate over the selected players list to create a string of player names separated by commas
+            ## Iterate over the whole selected players list to create a string of player names separated by commas
             selected=""
             count=self.list2.count()
             for i in range(count):
